@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  background: radial-gradient(ellipse at center, #6F4E37, red, #6F4E37);
+  overflow-y: hidden;
+  height: 320vh;          /* Altura completa del viewport */
+  white-space: nowrap;    /* Mantiene el contenido en una sola línea horizontal */
+}
+
+
+.lavoe{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.texto1{
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;
+}
+
+.colon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+
+.texto2{
+    position: absolute;
+    top: 86%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;
+}
+
+.rivera{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    width: 18%; 
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+.texto3{
+    position: absolute;
+    top: 90%;
+    left: 86%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;   
+}
+
+.blades{
+    position: absolute;
+    top: 50%;
+    left: 107%;
+    transform: translate(-50%,-50%);
+    width: 18%; 
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+.texto4{
+    position: absolute;
+    top: 80%;
+    left: 111%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;   
+}
+
+
+.niche{
+    position: absolute;
+    top: 50%;
+    left: 137%;
+    transform: translate(-50%,-50%);
+    width: 25%; 
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+.texto5{
+    position: absolute;
+    top: 80%;
+    left: 142%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer; 
+}
+
+.lebron{
+    position: absolute;
+    top: 50%;
+    left: 165%;
+    transform: translate(-50%,-50%);
+    width: 20%; 
+    height: 60%;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+.texto6{
+    position: absolute;
+    top: 83%;
+    left: 170%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer; 
+}
+
+
+.celia{
+    position: absolute;
+    top: 50%;
+    left: 190%;
+    transform: translate(-50%,-50%);
+    width: 20%; 
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+
+}
+.texto7{
+    position: absolute;
+    top: 80%;
+    left: 197%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;
+}
+
+.btn{
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 2%;
+  left: 1%;
+  width: 8%;
+  height: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  border: 7px ridge #6F4E37 ;
+  cursor: pointer;
+  transition: left 0.2s;
+
+}
+
+
+.btn:hover{
+    background: red;
+    color: white;
+}

@@ -1,0 +1,172 @@
+
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/736x/7b/8d/d5/7b8dd5fe3f349d79b3a80897db25c51d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;    
+  background-position: center;  
+  height: 100vh;              
+  overflow: hidden;            
+}
+
+
+
+
+.letra1{
+    top: 90%;
+    left: 15.6%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 8px; 
+    text-shadow: 15px 2px 8px rgb(0,0,0,0.4);
+    text-indent: 1%;
+    background: linear-gradient(to bottom, red, yellow, white, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.letra2{
+    top: 10%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 8px; 
+    text-shadow: 15px 2px 8px rgb(0,0,0,0.4);
+    text-indent: 1%;
+    background: linear-gradient(to bottom, blue, white, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+.letra3{
+    top: 90%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    backdrop-filter: blur(10px);
+    padding: 2px;
+    border-radius: 8px; 
+    text-shadow: 15px 2px 8px rgb(0,0,0,0.4);
+    text-indent: 1%;
+    background: linear-gradient(to bottom, blue, blue, white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.letra4{
+    top: 10%;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    backdrop-filter: blur(10px);
+    padding: 2px;
+    border-radius: 8px; 
+    text-shadow: 15px 2px 8px rgb(0,0,0,0.4);
+    text-indent: 1%;
+    background: linear-gradient(to bottom, white, white, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    line-height: 1.1;
+    transform: translate(-50%, -50%);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 26px;
+    width: 80%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgb(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    z-index: 10;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.7);  /* fondo semitransparente */
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+
+
+.btn{
+    text-decoration: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, red, orange);
+    color: white;
+    height: 40px;
+    height: 30px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    border: 5px ridge yellow;
+    text-align: center;
+
+}
+
+.btn:hover{
+    background: linear-gradient(to right, orange, red);
+
+}
+
