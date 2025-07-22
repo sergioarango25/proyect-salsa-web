@@ -163,10 +163,11 @@ body {
     background-size: contain;
     width: 500px;
     z-index: -1;
-    height: 400px;
+    height: 500px;
     top: 0;
     right: -19%;
     padding: 20px;
+
 }
 
 
