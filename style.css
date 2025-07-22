@@ -1,7 +1,7 @@
 /* este body es el fondo de la pagina en la cual hablaremos de cali*/
 body {
   margin: 0;
-  background-color: green;
+  background-color: white;
   overflow-x: hidden;  
   overflow-y: hidden;   
   height: 100vh;        
@@ -18,14 +18,14 @@ body {
     left: 50%;
     padding: 20px;
     transform: translate(-50%, -50%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 300px;
-    text-shadow: 10px 20px black;
+    text-shadow:  -5px 10px black;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     background: rgb(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.4)
-    box-shadow 0 25px 45px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
     z-index: 10;
     overflow: hidden;
     background-color: rgba(0,0,0,0.4);  /* fondo semitransparente */
@@ -51,6 +51,7 @@ body {
   left: 0;
   padding: 30px;
 }
+
  
 .img1 {
     position: absolute;
@@ -159,20 +160,19 @@ body {
     background-image: url("https://i.pinimg.com/736x/82/42/d5/8242d5fb37ee1d5ee3c1a59071859512.jpg");
     background-repeat: no-repeat;
     background-repeat: no-repeat;
-    background-size: contain; /* o cover */
+    background-size: contain;
     width: 500px;
     z-index: -1;
-    height: 300px;
+    height: 400px;
     top: 0;
     right: -19%;
     padding: 20px;
-
 }
 
 
 .img9{
     position: absolute;
-    background-image: url("https://i.pinimg.com/736x/2b/30/81/2b30812a0ee95e092f90b3e1e4838cba.jpg  ");
+    background-image: url("https://i.pinimg.com/736x/2b/30/81/2b30812a0ee95e092f90b3e1e4838cba.jpg");
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: contain; /* o cover */
@@ -259,8 +259,8 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(10px);
     background: rgb(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.4)
-    box-shadow 0 25px 45px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
     z-index: 10;
     overflow: hidden;
     background-color: rgba(0,0,0,0.4);  /* fondo semitransparente */
@@ -284,18 +284,20 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(10px);
     background: rgb(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.4)
-    box-shadow 0 25px 45px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 25px 20px black;
     z-index: 10;
     overflow: hidden;
     background-color: rgba(0,0,0,0.4);  /* fondo semitransparente */
     padding: 10px;
     border-radius: 8px;
     text-decoration: none;
-
+    transition: transform 0.3s ease;
 }
 
-
+.btn:hover{
+    transform: scale(1.1) translate(-50%,-50%);
+}
 
 
 
