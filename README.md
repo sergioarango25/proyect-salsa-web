@@ -13,5 +13,5 @@ El objetivo de esta página es difundir la historia, cultura y legado de la sals
 ## 🧱 Tecnologías utilizadas
 
 HTML, CSS Y JAVASCRIPT.
-Y para el despliegue de la aplicacion se utilizo vercel
+Para el despliegue de la aplicacion se utilizo vercel
 
