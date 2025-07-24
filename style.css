@@ -294,6 +294,7 @@ body {
     border-radius: 8px;
     text-decoration: none;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .btn:hover{

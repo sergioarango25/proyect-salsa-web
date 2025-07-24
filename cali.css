@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  background: radial-gradient(ellipse at center, red, yellow);
-  overflow-x: hidden;       /* Habilita scroll horizontal */
-  height: 240vh;          /* Altura completa del viewport */
-  white-space: nowrap;    /* Mantiene el contenido en una sola línea horizontal */
+  background-image: url("https://i.pinimg.com/1200x/8a/8e/2f/8a8e2fa6ad038a7749a6d41ca2542568.jpg");
+  background-repeat: initial;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;   
 }
 
 .btn{
@@ -33,184 +35,87 @@ body {
 }
 
 
-.titulo{
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
+header{
+  text-align: center;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 35px;
+  margin-top: 20px;
+  color: black;
+  text-shadow: 0 7px 7px rgb(0, 0, 0, 0.8);
 }
-
-.texto{
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  font-size: larger;
+p{
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: 2px;
+  color: black;
   font-size: 20px;
-  transform: translate(-50%, -50%);
+  text-shadow: 0 7px 5px rgb(0, 0, 0, 0.8);
 }
 
 
-.sanantonio{
-  position: absolute;
-  top: 60%;
-  left: 18%;
-  height: 50%;
-  transform: translate(-50%,-50%);
-  box-shadow: 10px 10px 10px;
-  border-radius: 10px;
-}
-
-
-.texto1{
-  position: absolute;
-  display: flex;
+.turismo {
+  display: flex; 
   align-items: center;
   justify-content: center;
-  top: 32%;
-  left: 37%;
-  padding: 20px;
-  height: 50%;
-  width: 60% ; 
-  font-size: 20px;
-  backdrop-filter: blur(30px);
-  z-index: 10;
-  background: rgb(0, 0, 0, 0.8);
-  color: white;
-  text-align: left;
-  overflow: hidden;
-  background-color: rgb(0, 0, 0, 0.4);
-  padding: 2px;
-  border-radius: 8px;
-
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px;
 }
 
-
-.rio{
-  position: absolute;
-  top: 150%;
-  left: 18%;
-  height: 50%;
-  transform: translate(-50%,-50%);
-  box-shadow: 10px 10px 10px;
-  border-radius: 10px;
-}
-
-.texto2{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 117%;
-  left: 37%;
-  height: 60%;
-  width: 60% ; 
-  padding: 3px;
-  font-size:20px;
-  backdrop-filter: blur(30px);
-  z-index: 10;
-  background: rgb(0, 0, 0, 0.8);
-  color: white;
-  background-color: rgb(0, 0, 0, 0.4);
-  padding: 2px;
-  border-radius: 8px;
-}
-
-
-.cristo{
-  position: absolute;
-  top: 240%;
-  left: 18%;
-  height: 70%;
-  transform: translate(-50%,-50%);
-  box-shadow: 10px 10px 10px;
-  border-radius: 10px;
-}
-
-
-.texto3{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 207%;
-  left: 37%;
-  height: 60%;
-  width: 60% ; 
-  padding: 3px;
-  font-size:20px;
-  backdrop-filter: blur(30px);
-  z-index: 10;
-  background: rgb(0, 0, 0, 0.8);
-  color: white;
-  background-color: rgb(0, 0, 0, 0.4);
-  padding: 2px;
-  border-radius: 8px;
-
-}
-
-
-.texto4{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 307%;
-  left: 37%;
-  height: 60%;
-  width: 60% ; 
-  padding: 3px;
-  font-size:20px;
-  backdrop-filter: blur(30px);
-  z-index: 10;
-  background: rgb(0, 0, 0, 0.8);
-  color: white;
-  background-color: rgb(0, 0, 0, 0.4);
-  padding: 2px;
-  border-radius: 8px;
-}
-
-.sebas{
-  position: absolute;
-  top: 340%;
-  left: 18%;
-  height: 70%;
-  transform: translate(-50%,-50%);
-  box-shadow: 10px 10px 10px;
-  border-radius: 10px;
-}
-
-
-.museo{
-  position: absolute;
-  top: 420%;
-  left: 18%;
+ /* Esta linea sirve para darle estilo a las imagenes y organizar */
+.turismo img { 
   width: 30%;
-  height: 50%;
-  transform: translate(-50%,-50%);
-  box-shadow: 10px 10px 10px;
-  border-radius: 10px; 
+  height: 20rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 10);
+  transition: transform 0.3s ease;
+  outline: none;
 }
 
-.texto5{
-  position: absolute;
+.turismo img:hover {
+  box-shadow: -0px 25px 20px rgba(0, 0, 0, 10); 
+  transform: scale(1.1);
+}
+
+pre{
+  font-size: 20px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px inset white;
+  background-color: rgba(0,0,0,10);  /* fondo semitransparente */
+  background: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+footer{
   display: flex;
-  align-items: center;
   justify-content: center;
-  top: 390%;
-  left: 35%;
-  height: 53%;
-  width: 62.5% ; 
-  padding: 3px;
-  font-size:20px;
-  backdrop-filter: blur(30px);
-  z-index: 10;
-  background: rgb(0, 0, 0, 0.8);
-  color: white;
-  background-color: rgb(0, 0, 0, 0.4);
-  padding: 2px;
-  border-radius: 8px;
+  align-items: center;
 }
 
+footer button{
+  background-color: green;
+  color: white;
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0 5px 6px black;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 10);
+  height: 50px;
+  width: fit-content;
+  transition: transform 0.4s ease;
+  margin: 30px;
+  cursor: pointer;
+}
 
+button:hover{
+  background: linear-gradient(40deg, green, white);
+  color: black;
+  transform: scale(1.5);
+}
